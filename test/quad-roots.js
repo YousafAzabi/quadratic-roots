@@ -10,4 +10,13 @@ describe('quad-roots.js module is implemented to find the roots of a quadratic e
     const output = find(input1, input2, input3);
     expect(output).to.eql(expected);
   });
+
+  it('Test when all input given and the roots are complex numbers.', () => {
+    const input1 = 2;
+    const input2 = 6;
+    const input3 = 5;
+    const expected = ['-1.5 + 0.5 j ', '-1.5 - 0.5 j '];
+    const output = find(input1, input2, input3);
+    expect(output).to.eql(expected);
+  });
 });
