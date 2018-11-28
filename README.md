@@ -1,3 +1,5 @@
+[![Coverage Status](https://coveralls.io/repos/github/YousafAzabi/quadratic-roots/badge.svg)](https://coveralls.io/github/YousafAzabi/quadratic-roots)
+
 # quadratic-roots
 Finding roots of quadratic equation
 
