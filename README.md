@@ -1,5 +1,5 @@
 [![Coverage Status](https://coveralls.io/repos/github/YousafAzabi/quadratic-roots/badge.svg)](https://coveralls.io/github/YousafAzabi/quadratic-roots)
-[![Maintainability](https://api.codeclimate.com/v1/badges/09e333900f9a4459941e/test_coverage)](https://codeclimate.com/github/YousafAzabi/quadratic-roots/test_coverage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/09e333900f9a4459941e/maintainability)](https://codeclimate.com/github/YousafAzabi/quadratic-roots/maintainability)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FYousafAzabi%2Fquadratic-roots.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FYousafAzabi%2Fquadratic-roots?ref=badge_shield)
 [![Build Status](https://travis-ci.com/YousafAzabi/quadratic-roots.svg?branch=master)](https://travis-ci.com/YousafAzabi/quadratic-roots)
 
