@@ -15,7 +15,6 @@
   "author": "Yousaf Azabi",
   "license": "MIT",
   "dependencies": {
-    "@turf/turf": "^5.1.6",
     "mocha": "^5.2.0"
   },
   "devDependencies": {
