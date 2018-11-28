@@ -2,7 +2,7 @@
 exports.find = (a, b, c) => {
 
   if(a == 0) { //throw error if quadratic term coefficient is zero
-    throw "ERROR: coefficient of quadratic term cannot be 0.";
+    throw 'ERROR: coefficient of quadratic term cannot be 0.';
   }
 
   const sqrt = Math.pow(b, 2) - (4 * a * c); //calculate the value under square-root

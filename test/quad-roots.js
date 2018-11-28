@@ -37,4 +37,12 @@ describe('quad-roots.js module is implemented to find the roots of a quadratic e
     const output = find(input1, input2, input3);
     expect(output).to.eql(expected);
   });
+
+  it('Test when the roots when a = 0.', () => {
+    const input1 = 0;
+    const input2 = 4;
+    const input3 = 2;
+    const expected = 'ERROR: coefficient of quadratic term cannot be 0.';
+    expect(() => find(input1, input2, input3)).to.throw(expected);
+  });
 });
