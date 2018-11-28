@@ -10,7 +10,7 @@ exports.find = (a, b, c) => {
   const term2 = Math.sqrt(Math.abs(sqrt)) / (2 * a);
 
   if (sqrt < 0) { // check if sqaure-root is negative
-    return [term1 + ' + ' + term2 + ' j ' , term1 + ' - ' + term2 + ' j ' ]; //return complex roots
+    return [term1 + ' + ' + term2 + ' j' , term1 + ' - ' + term2 + ' j' ]; //return complex roots
   }
-  return [(term1 + term2), (term1 - term2)]; //return real number roots
+  return [(term1 + term2).toString(), (term1 - term2).toString()]; //return real number roots
 };
