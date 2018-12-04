@@ -16,7 +16,7 @@ The return value is an array of two string, the two roots.
 
 ### Example
 
-```
+```js
 const roots = require('./src/quad-roots.js');
 const a = 1, b = 4, c = 3;
 
