@@ -12,3 +12,13 @@ The `quad-roots` has a function `find` which accepts three input values (a, b an
 ```
 ax^2 + bx + c = 0
 ```
+The return value is an array of two string, the two roots.
+
+### Example
+
+```
+const roots = require('./src/quad-roots.js');
+const a = 1, b = 4, c = 3;
+
+console.log(roots.find(a,b,c));  // [ '-1', '-3' ]
+```
